@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <PackageId>wdt</PackageId>
+    <VersionPrefix>0.1.1</VersionPrefix>
+    <Authors>Daniel Carrera</Authors>
+
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>wdt</ToolCommandName>
+
+    <RepositoryUrl>https://github.com/IdentitySolution/wdt.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Principal.Windows" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
